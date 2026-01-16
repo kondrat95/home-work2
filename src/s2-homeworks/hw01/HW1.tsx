@@ -46,7 +46,11 @@ const HW1 = () => {
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
+<<<<<<< HEAD
                 <div className={s2.boxMessange}>
+=======
+                <div>
+>>>>>>> 039147c80769dc492ed26fd72cdef6b3ae7eb448
                     <Message message={message0} />
                     <FriendMessage message={friendMessage0} />
                 </div>
