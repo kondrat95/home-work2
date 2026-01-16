@@ -1,15 +1,11 @@
 .sendForm {
-<<<<<<< HEAD
     display: flex;
     gap: 45px;
     width: 100%;
-=======
->>>>>>> 039147c80769dc492ed26fd72cdef6b3ae7eb448
 
 }
 
 .textarea {
-<<<<<<< HEAD
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 5px 20px 0 rgba(29, 33, 38, 0.03);
@@ -52,18 +48,4 @@
 
 .button:active {
     transform: scale(0.97);
-=======
-
-}
-
-.button {
-
-}
-
-.button:hover {
-
-}
-.button:active {
-
->>>>>>> 039147c80769dc492ed26fd72cdef6b3ae7eb448
 }

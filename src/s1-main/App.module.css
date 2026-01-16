@@ -1,5 +1,4 @@
 .App {
-<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -43,9 +42,6 @@
     color: #000;
     margin-bottom: 10px;
 }
-=======
-    --header_height: 60px;
-}
 
 .hw {
 
@@ -54,4 +50,4 @@
 .hwTitle {
 
 }
->>>>>>> 039147c80769dc492ed26fd72cdef6b3ae7eb448
+
