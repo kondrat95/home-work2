@@ -3,11 +3,6 @@
     padding: 5px 24px;
     width: 132px;
     height: 30px;
-    background: #06c;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 143%;
-    color: #fff;
     outline: none;
     border-color: transparent;
     display: flex;
@@ -17,10 +12,7 @@
 }
 
 .disabled {
-    border-radius: 3px;
-    padding: 5px 24px;
-    width: 133px;
-    height: 30px;
+
     background: #004d99;
     opacity: 0.5;
     color: #002e5c;
@@ -33,10 +25,16 @@
 }
 
 .default {
+    background: #06c;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
 }
 
 .red {
     background: #cc1439;
+    color: white;
 }
 
 .default:hover {
