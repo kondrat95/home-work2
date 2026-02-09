@@ -1,28 +1,30 @@
 
 .sidebar {
-    position: absolute;
+    position: fixed;
     top: 0;
-    left: -500px;
+    left: 0;
+    transform: translateX(-100%);
     width: 317px;
     height: 100vh;
     background: white;
     box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1), 0 10px 40px 0 rgba(29, 33, 38, 0.13);
-
+    transition: transform 0.3s ease-in-out;
+    z-index: 4;
 }
 
 .sidebar.open {
-    top: 0;
-    left: 0;
-    z-index: 2;
+    transform: translateX(0);
 }
 
 .background {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     background: #000;
     opacity: 0.3;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 3;
 }
 
 .nav {
@@ -31,7 +33,6 @@
     flex-direction: column;
     align-items: center;
     gap: 45px;
-
 }
 
 .nav a {
@@ -45,9 +46,9 @@
     color: #3d6b99;
 }
 
-.nav .active {
-    color: #3d6b99;
-    text-decoration: underline;
+.active {
+    color: #3d6b99 !important;
+    text-decoration: underline !important;
 }
 
 .close {
@@ -56,7 +57,10 @@
     right: 25px;
     top: 15px;
     position: absolute;
+    cursor: pointer;
 }
 
 .close img {
+    width: 24px;
+    height: 24px;
 }
