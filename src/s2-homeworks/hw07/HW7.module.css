@@ -1,5 +1,0 @@
-.container {
-    display: flex;
-    gap: 20px; /* Уменьшите gap */
-    flex-wrap: wrap; /* Добавьте wrap */
-}
