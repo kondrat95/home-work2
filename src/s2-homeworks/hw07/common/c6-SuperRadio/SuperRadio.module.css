@@ -1,4 +1,7 @@
 .radio {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
 }
 
 .radio::before {
@@ -9,7 +12,13 @@
 }
 
 .label {
+    display: flex;
+    gap: 11px;
+
 }
 
 .options {
+    display: flex;
+    gap: 11px;
+    flex-direction: column;
 }
